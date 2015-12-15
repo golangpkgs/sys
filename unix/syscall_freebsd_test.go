@@ -9,7 +9,7 @@ package unix_test
 import (
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/golangpkgs/sys/unix"
 )
 
 func TestSysctUint64(t *testing.T) {

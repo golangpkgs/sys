@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
+	"github.com/golangpkgs/sys/windows"
 )
 
 func TestWin32finddata(t *testing.T) {
